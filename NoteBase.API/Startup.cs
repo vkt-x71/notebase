@@ -1,13 +1,12 @@
+using FluentValidation.AspNetCore;
 using Microsoft.AspNetCore.Authentication.JwtBearer;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.Identity;
-using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
-using Microsoft.Extensions.Logging;
 using Microsoft.OpenApi.Models;
 using NoteBase.Core.Configuration;
 using NoteBase.Core.Models;
@@ -18,13 +17,10 @@ using NoteBase.Data;
 using NoteBase.Data.Repositories;
 using NoteBase.Service.Services;
 using NoteBase.SharedLibrary.Configurations;
+using NoteBase.SharedLibrary.Extensions;
 using NoteBase.SharedLibrary.Services;
 using System;
 using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
-using FluentValidation.AspNetCore;
-using NoteBase.SharedLibrary.Extensions;
 
 namespace NoteBase.API
 {

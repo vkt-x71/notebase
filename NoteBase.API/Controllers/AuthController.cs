@@ -1,11 +1,12 @@
 ﻿using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
+using NoteBase.API.Controllers;
+using NoteBase.Core.DTOs;
+using NoteBase.Core.Services;
 using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
-using UdemyAuthServer.Core.DTOs;
-using UdemyAuthServer.Core.Services;
 
 namespace UdemyAuthServer.API.Controllers
 {
