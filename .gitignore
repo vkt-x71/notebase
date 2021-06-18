@@ -1,0 +1,10 @@
+.vs/
+NoteBase.API/bin/
+NoteBase.API/obj/
+NoteBase.Core/bin/
+NoteBase.Core/obj/
+NoteBase.SharedLibrary/obj/
+NoteBase.SharedLibrary/bin/
+NoteBase.Services/obj/
+NoteBase.Services/bin/
+NoteBase.Data/obj/
