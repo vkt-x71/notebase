@@ -12,6 +12,10 @@ namespace NoteBase.Data
             : base(options)
         {
         }
+        public DbSet<NoteBooks> NoteBooks { get; set; }
+        public DbSet<Notes> Notes { get; set; }
+        public DbSet<NoteTags> NoteTags { get; set; }
+        public DbSet<Tags> Tags { get; set; }
         public DbSet<UserRefreshToken> UserRefreshTokens { get; set; }
         protected override void OnModelCreating(ModelBuilder builder)
         {

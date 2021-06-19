@@ -9,6 +9,10 @@ namespace NoteBase.Core.Models
 {
     public class UserApp : IdentityUser
     {
-
+        public UserApp()
+        {
+            NoteBooks = new HashSet<NoteBooks>();
+        }
+        public virtual ICollection<NoteBooks> NoteBooks { get; set; }
     }
 }
