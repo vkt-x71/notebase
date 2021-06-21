@@ -41,7 +41,10 @@ namespace NoteBase.API
             services.AddScoped<ITokenService, TokenService>();
             services.AddScoped(typeof(IGenericRepository<>), typeof(GenericRepository<>));
             services.AddScoped(typeof(IServiceGeneric<,>), typeof(ServiceGeneric<,>));
-
+            services.AddScoped<INoteBooksService, NoteBooksService>();
+            services.AddScoped<INoteSetvice, NotesService>();
+            services.AddScoped<INoteTagsService,NoteTagsService>();
+            services.AddScoped<ITagService,TagsService>();
             services.AddScoped<IUnitOfWork, UnitOfWork>();
 
             services.AddDbContext<NoteBaseIdentityContext>(options =>
