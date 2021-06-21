@@ -25,8 +25,4 @@
     <ProjectReference Include="..\NoteBase.Services\NoteBase.Services.csproj" />
   </ItemGroup>
 
-  <ItemGroup>
-    <Folder Include="Controllers\" />
-  </ItemGroup>
-
 </Project>
