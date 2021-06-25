@@ -1,2 +1,6 @@
 rootProject.name = "NoteBase Android"
 include ':app'
+include ':NoteBaseAndroidCore'
+include ':NoteBaseAndroidSharedLibrary'
+include ':NoteBaseAndroidServices'
+include ':NoteBaseAndroidData'
